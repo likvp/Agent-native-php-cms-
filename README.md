@@ -61,3 +61,24 @@ public_html/
 ├── modules/                  # Изолированные модули (Modular Monolith)
 ├── assets/                   # Скомпилированные стили, скрипты и кеш
 └── admin/                    # Админ-панель, REST API и /admin/mcp.php
+
+
+
+
+⚡ Quick Start (Zero-Setup)
+1. Клонируйте репозиторий или распакуйте архив в корень вашего веб-сервера (⁠public_html/⁠).
+2. Убедитесь, что веб-сервер имеет права на запись в корневую папку (для создания ⁠data.sqlite⁠ и папки кеша).
+3. Откройте ваш сайт в браузере — ядро автоматически сгенерирует структуру базы данных и дефолтную главную страницу.
+4. Для входа в режим визуального редактирования перейдите по адресу ⁠/admin/⁠ (пароль по умолчанию для MVP: ⁠2027⁠).
+🤖 AI Agent & MCP Integration
+ИИ-агенты (Cursor, Claude, OpenAI Operator) могут управлять сайтом через стандартизированный MCP-шлюз:
+ Endpoint: ⁠https://your-domain.com/admin/mcp.php⁠
+ Protocol: JSON-RPC 2.0
+ Available Tools: ⁠get_site_structure⁠, ⁠update_block_data⁠, ⁠batch_create_pages⁠, ⁠rollback_revision⁠.
+📄 License & Studio Info
+Developed with ❤️ by Tabson.ru Studio.
+Licensed under the MIT License.
+
+
+
+
